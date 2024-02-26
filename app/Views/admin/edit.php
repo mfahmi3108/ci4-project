@@ -9,7 +9,7 @@
             <input type="hidden" value="<?= $produk['id'] ?>" name="id">
             <?php if (!empty(session()->getFlashdata('error'))) : ?>
                 <div class="alert alert-danger" role="alert">
-                    <h4>Periksa inputan form</h4>
+                    <h4>Periksa inputan form Ini perubahan di github</h4>
                     <hr>
                     <?= session()->getFlashdata('error') ?>
                 </div>
