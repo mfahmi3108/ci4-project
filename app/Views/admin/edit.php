@@ -10,6 +10,7 @@
             <?php if (!empty(session()->getFlashdata('error'))) : ?>
                 <div class="alert alert-danger" role="alert">
                     <h4>Periksa inputan form Ini perubahan di github</h4>
+                    <h5>Ini perubahan kelima</h5>
                     <hr>
                     <?= session()->getFlashdata('error') ?>
                 </div>
