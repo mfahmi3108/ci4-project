@@ -24,7 +24,7 @@
 
 <section class="kartu">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center g-2">
             <?php foreach ($produk as $p) : ?>
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
@@ -43,8 +43,6 @@
     </div>
 </section>
 
-
-<h1>Ini halaman product </h1>
 
 
 <?= $this->endSection(); ?>
