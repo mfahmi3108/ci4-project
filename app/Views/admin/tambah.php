@@ -13,15 +13,7 @@
                     <?= session()->getFlashdata('error') ?>
                 </div>
             <?php endif; ?>
-            <?php if (!empty(session()->getFlashdata('success'))) : ?>
-                <script>
-                    toastr.success("<?= session()->getFlashdata('success'); ?>")
-                </script>
-            <?php elseif (!empty(session()->getFlashdata('failed'))) : ?>
-                <script>
-                    toastr.error("<?= session()->getFlashdata('failed'); ?>")
-                </script>
-            <?php endif; ?>
+
             <?= csrf_field(); ?>
             <div class=" row mb-3">
                 <label for="nama_wisata" class="col-sm-2 col-form-label">Nama Wisata</label>

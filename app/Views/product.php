@@ -12,7 +12,7 @@
                         <div class="card-body">
                             <h5 class="card-title"><?= $p['nama_wisata']; ?></h5>
                             <p class="card-text"><?= $p['deskripsi']; ?></p>
-                            <a href="<?= base_url('/product'); ?>/<?= $p['id']; ?>" class="btn btn-primary">Go somewhere</a>
+                            <a href="<?= base_url('/product'); ?>/<?= $p['id']; ?>" class="btn btn-primary">Detail</a>
                         </div>
                     </div>
                 </div>
